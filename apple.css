@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.leftmanu{
+    width: 70%;
+    line-height: 100px;
+    float: left;
+    }
+    .manu{
+        width: 100%;
+        height: 90px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .rightmanu ul{
+
+        list-style-type: none; 
+        float:right;
+        margin-top: 10px;
+        }
+    
+    ul li{
+        display: inline-block;
+    }
+  .rightmanu ul li a{
+        text-decoration: none;
+        color: #fff;
+padding: 5px 20px;
+border: 1px solid #fff;
+transition: 0.5s ease;
+
+    }
+
+.rightmanu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+.iphone{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/Apple-iPhone-14-i.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    height: 500px;
+         width: 95%;
+          border: 1px solid gray;
+        text-align: center;
+        justify-content: center;
+        margin: 20px 10px 0px 15px;
+}
+.iphone h1{
+    font-size: 180%;
+    text-align: center;
+
+}
+.iphone p{
+    font-size: 150%;
+    text-align: center;
+}
+.iphone ul li{
+    font-size: 120%;
+    text-align: center;
+    list-style-type: none;
+}
+
+/*applewatch*/
+.applewatch{
+    margin: 10;
+    padding: 10;
+background-image: url(./Assets/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg);
+ width: 100%;
+    height: 820px;
+        background-size: 95% 95%;
+text-align: center;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    margin: 20px 10px 0px 15px;
+}
+.applewatch h1{
+    font-size: 300%;
+    text-align: center;
+    color: #Fff;
+}
+.applewatch p{
+    font-size: 100%;
+    text-align: center;
+    color: #Fff;
+    
+}
+.applewatch ul li{
+    font-size: 120%;
+    text-align: center;
+    list-style-type: none;
+    color: #Fff;
+}
+.applewatch p.series{
+    color: #f00;
+}
+/*Iphone 14 pro*/
+.iphone14{
+    margin: 0;
+    padding: 0;
+     width:100%;
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    background-image:url(./Assets/Apple-iPhone-14-Pro-.jpg);
+    margin: 20px 10px 0px 35px;
+    
+     
+}
+.iphone14 h1{
+    font-size: 300%;
+    text-align: center;
+    color: #Fff;
+    line-height: 0.2em;
+    padding-top: 2%;
+
+}
+.iphone14 h4{
+    font-size: 200%;
+    text-align: center;
+    color: #Fff;
+    line-height: 0.2em;
+    padding-top: 2%;
+
+}
+
+.iphone14 p{
+    color: #f00;
+    text-align: center;
+    padding-top: 1%;
+
+}
+.iphone14 ul li {
+    font-size: 100%;
+    text-align: center;
+    list-style-type: none;
+    color: #00f;
+    padding-top: 0%;
+
+}
+/*Group1st*/
+
+
+.group{
+    display: flex;
+    width: 100%;
+    border: 1px solid gray;
+    background-size: cover;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+.Pods{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/Apple-AirPods-.jpg);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+   background-size:cover;
+   line-height: 0em;
+   max-width: 650px;
+   max-height: 450px;
+   float: left;
+   
+
+   /* padding-left: 25%; */
+    }
+.Pods h1{
+    font-size: 300%;
+    padding-left: 25%;
+    padding-top: 5%;
+    color: #Fff;
+    line-height: 0em;
+}
+.Pods h6{
+    font-size: 120%;
+    padding-left: 28%;
+    padding-top: 5%;
+    color: white;
+    line-height: 0em;
+    
+}
+.Pods ul li{
+    font-size: 120%;
+    padding-left: 25%;
+    padding-top: 3%;
+text-align: center;    
+list-style-type: none;
+    color: #00f;
+    line-height: 0em;
+}
+.Pods p{
+    font-size: 100%;
+    padding-left: 33%;
+    padding-top: 5%;
+
+    color: #Fff;
+    line-height: 0em;
+}
+.promo{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/iPad.jpeg);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+   background-size:cover;
+   line-height: 1em;
+   max-width: 700px;
+   max-height: 450px;
+float:left;
+padding-left: 10%;
+
+}
+.promo h1{
+    font-size: 300%;
+    padding-left: 42%;
+    padding-top: 3%;
+
+}
+.promo h4{
+    font-size: 120%;
+    padding-left: 32%;
+    padding-top: 3%;
+
+    
+}
+.promo ul li{
+    font-size: 120%;
+    padding-left: 35%;
+    list-style-type: none;
+    color: #00f;
+    padding-top: 3%;
+
+}
+.info{
+    color: gray;
+    margin-left: 3%;
+}
+.list ol{
+    display: inline-block;
+  vertical-align: top;
+  padding-left: 0;}
+
+  .list ol li{
+    list-style-type: none;
+    line-height: 2em;
+    padding-left: 30px;
+}
+/* group2 */
+
+.group2{
+    display: flex;
+    width: 100% 80%;
+    border: 1px solid gray;
+    background-size: cover;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+.Watch{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/Watch.2.jpeg);
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+   background-size:contain;
+   line-height: 1em;
+   max-width: 800px;
+   max-height: 450px;
+float:left;
+padding-left: 15%;
+}
+.Watch h1{
+    font-size: 300%;
+    padding-left: 10%;
+    padding-top: 3%;
+
+}
+.Watch h4{
+    font-size: 120%;
+    padding-left: 10%;
+    padding-top: 3%;
+
+    
+}
+.Watch ul li{
+    font-size: 120%;
+    padding-left: 10%;
+    list-style-type: none;
+    color: #00f;
+    padding-top: 3%;
+
+}
+/* Card */
+.Cards{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/Cards.jpeg);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+   background-size:contain;
+   line-height: 0em;
+   max-width: 650px;
+   max-height: 550px;
+   float: right;
+   padding-right: 15%;
+
+
+   /* padding-left: 25%; */
+    }
+.Cards h1{
+    font-size: 300%;
+    padding-left: 25%;
+    padding-top: 5%;
+    color:black;
+    line-height: 0em;  
+    padding-left: 26%;
+text-align: center;
+}
+.Cards h4{
+    font-size: 120%;
+    padding-left: 25%;
+    padding-top: 6%;
+    color: black;
+    line-height: 0em;
+    text-align: center;
+
+}
+.Cards ul li{
+    font-size: 120%;
+    padding-left: 25%;
+    padding-top: 4%;
+    text-align: center;
+    list-style-type: none;
+    color: #00f;
+    line-height: 0em;
+    padding-left: 45%;
+
+}
